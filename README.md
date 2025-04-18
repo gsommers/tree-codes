@@ -31,5 +31,5 @@ Each of these files is a dictionary with two keys:
 ### dists/
 
 **Conditional code distances, heralded errors in the bulk of the Bell tree**
-- `conditional_dists.jld2` [Fig. 8b, Fig. S13]: dictionary with distribution at each time step ("distr"), mean conditional distance ("means"), and $d_peak(q,q,tau)$ ("maxs")
+- `conditional_dists.jld2` [Fig. 8b]: dictionary with mean conditional distance conditioned on survival, $d(q,q,\tau)$ ("means"), and $d_{peak}(q,q,tau)$ ("maxs"). Large data file containing the full distribution, used to prepare Fig. S13, available upon request.
 - `dist_scaling_X.jld2`: dictionary with fits to $\lambda(q)$ in $d(q,q,tau) \propto \lambda(q)^\tau$ ("means") and $d_{peak}(q,q,tau)$ ("maxs"). Different fits were performed for integer and half-integer tau, yielding `[[fit, err1], [fit2, err2]]`. The logarithm of the average across fits is plotted in Fig. 8c. 
