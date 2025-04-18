@@ -1,6 +1,7 @@
 ## README
 
-This repository contains some of the data used to produce the figures in [Dynamically generated concatenated codes and their phase diagrams](https://arxiv.org/abs/2409.13801) by Grace M. Sommers, David A. Huse, and Michael J. Gullans. For additional data and the code used to generate it, please contact gsommers@princeton.edu.
+This repository contains some of the data used to produce the figures in [Dynamically generated concatenated codes and their phase diagrams](https://arxiv.org/abs/2409.13801) by Grace M. Sommers, David A. Huse, and Michael J. Gullans. All files can be read using the Julia package `JLD2`. For additional data and the code used to generate it, please contact gsommers@princeton.edu.
+
 
 ### depol/
 
