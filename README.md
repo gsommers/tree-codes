@@ -19,8 +19,8 @@ Each of these files is a dictionary with two keys:
 
 **Data under unheralded bit and phase flips, bulk of Bell tree**
 
-- `thresholds.jld2` [Fig. 3a] dictionary of the q-dependent thresholds $p_cx(q)$, $p_cz(q)$.
-         e.g. $p_cx(q) =$ thresholds["X"][q][1] $\pm$ thresholds["X"][q][2]
+- `thresholds.jld2` [Fig. 3a] dictionary of the q-dependent thresholds $p_{cx}(q)$, $p_{cz}(q)$.
+         e.g. $p_{cx}(q) =$ `thresholds["X"][q][1]` $\pm$ `thresholds["X"][q][2]`
 - `fixed_points.jld2` [Fig. 3b] stable and unstable fixed points
 - `bulk_{n}.jld2` [Fig. 3c]: dictionary with two keys:
   * "fail": $P_x(q,q,t)$ at even times, $P_z(q,q,t)$ at odd times, in independent runs with 2 populations, averaged over n elements each. So $P_X(q,q,tau) = `data[q]["fail"][:,:,2*tau]`. First dimension is 2 populations per run, second dimension is N independent runs.
